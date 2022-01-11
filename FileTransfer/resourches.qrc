@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="resurssit">
+    <file>icons/8722222091536837273_48_WTc_icon.ico</file>
+    <file>icons/18874797511553668575-32.png</file>
+    <file>icons/4081326461553668576-32.png</file>
+    <file>icons/6120438951553668577-32.png</file>
+    <file>icons/15731092601553668592-32.png</file>
+  </qresource>
+</RCC>

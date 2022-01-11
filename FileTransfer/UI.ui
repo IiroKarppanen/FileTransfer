@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0.994, stop:0 rgba(20, 21, 22, 255), stop:1 rgba(54, 64, 80, 255));
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="content_frame">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="host_frame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>140</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>70</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>179</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="file_radio">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>32</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QRadioButton#file_radio{
+
+	color: rgb(185, 185, 185);
+	background-color: rgba(255, 255, 255, 0);
+
+
+}
+
+QRadioButton#file_radio::indicator::unchecked:hover {
+	image: url(:/resurssit/icons/4081326461553668576-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 31px;
+    height: 31px;
+}
+QRadioButton#file_radio::indicator::checked:hover {
+    image: url(:/resurssit/icons/4081326461553668576-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 31px;
+    height: 31px;
+}
+
+QRadioButton#file_radio::indicator {
+    width: 30px;
+    height: 30px;
+
+}
+QRadioButton#file_radio::indicator::unchecked {	
+	image: url(:/resurssit/icons/4081326461553668576-32.png);
+}
+QRadioButton#file_radio::indicator::checked {	
+	image: url(:/resurssit/icons/4081326461553668576-32.png);
+color: rgb(185, 185, 185);
+}</string>
+               </property>
+               <property name="text">
+                <string> Select file</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="send_radio">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QRadioButton#send_radio{
+
+	color: rgb(185, 185, 185);
+	background-color: rgba(255, 255, 255, 0);
+
+}
+
+QRadioButton#send_radio::indicator::unchecked:hover {
+	
+	image: url(:/resurssit/icons/15731092601553668592-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+}
+QRadioButton#send_radio::indicator::checked:hover {
+   image: url(:/resurssit/icons/15731092601553668592-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+}
+
+QRadioButton#send_radio::indicator {
+    width: 31px;
+    height: 31px;
+
+}
+QRadioButton#send_radio::indicator::unchecked {	
+	image: url(:/resurssit/icons/15731092601553668592-32.png);
+}
+QRadioButton#send_radio::indicator::checked {	
+	image: url(:/resurssit/icons/15731092601553668592-32.png);
+color: rgb(185, 185, 185);
+}</string>
+               </property>
+               <property name="text">
+                <string> Send file</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="client_frame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>140</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+border-top: 1px solid rgb(48, 53, 61);
+	background-color: rgba(255, 255, 255, 0);
+
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>32</number>
+             </property>
+             <property name="leftMargin">
+              <number>70</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="path_radio">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QRadioButton#path_radio{
+
+	color: rgb(185, 185, 185);
+	background-color: rgba(255, 255, 255, 0);
+
+}
+
+QRadioButton#path_radio::indicator::unchecked:hover {
+	
+	image: url(:/resurssit/icons/6120438951553668577-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+
+	
+}
+QRadioButton#path_radio::indicator::checked:hover {
+    image: url(:/resurssit/icons/6120438951553668577-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+
+}
+
+QRadioButton#path_radio::indicator {
+    width: 31px;
+    height: 31px;
+
+}
+QRadioButton#path_radio::indicator::unchecked {	
+	image: url(:/resurssit/icons/6120438951553668577-32.png);
+}
+QRadioButton#path_radio::indicator::checked {	
+	image: url(:/resurssit/icons/6120438951553668577-32.png);
+color: rgb(185, 185, 185);
+}</string>
+               </property>
+               <property name="text">
+                <string> Select download path</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit">
+               <property name="maximumSize">
+                <size>
+                 <width>180</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(42, 49, 59);
+border: 0px solid;
+color: rgb(185, 185, 185);</string>
+               </property>
+               <property name="inputMask">
+                <string/>
+               </property>
+               <property name="text">
+                <string>Host ip address</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="receive_radio">
+               <property name="minimumSize">
+                <size>
+                 <width>200</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>12</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QRadioButton#receive_radio{
+
+	color: rgb(185, 185, 185);
+	background-color: rgba(255, 255, 255, 0);
+	padding-bottom: 5px;
+
+}
+
+QRadioButton#receive_radio::indicator::unchecked:hover {
+	image: url(:/resurssit/icons/18874797511553668575-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+}
+QRadioButton#receive_radio::indicator::checked:hover {
+    image: url(:/resurssit/icons/18874797511553668575-32.png);
+	margin-top:1px;
+	margin-left:1px;
+	width: 32px;
+    height: 32px;
+}
+
+QRadioButton#receive_radio::indicator {
+    width: 31px;
+    height: 31px;
+
+}
+QRadioButton#receive_radio::indicator::unchecked {	
+	image: url(:/resurssit/icons/18874797511553668575-32.png);
+}
+QRadioButton#receive_radio::indicator::checked {	
+	image: url(:/resurssit/icons/18874797511553668575-32.png);
+color: rgb(185, 185, 185);
+}</string>
+               </property>
+               <property name="text">
+                <string> Receive file</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>140</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QProgressBar" name="progressBar">
+               <property name="font">
+                <font>
+                 <family>Segoe UI</family>
+                 <pointsize>11</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QProgressBar {
+    border: 1px solid rgb(38, 45, 56);
+    border-radius: 5px;
+	color: rgb(185, 185, 185);
+    
+	
+}
+
+QProgressBar::chunk {
+   
+	
+	
+	background-color: rgb(57, 67, 83);
+    width: 1px;
+}
+
+QProgressBar:text {
+	color: rgb(148, 230, 255);
+}
+   </string>
+               </property>
+               <property name="maximum">
+                <number>100</number>
+               </property>
+               <property name="value">
+                <number>100</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+               <property name="textVisible">
+                <bool>true</bool>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="textDirection">
+                <enum>QProgressBar::TopToBottom</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+           <widget class="QFrame" name="frame_2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>25</number>
+             </property>
+             <property name="topMargin">
+              <number>23</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="terminal_frame">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame#terminal_frame{
+background-color: rgba(122, 122, 122, 30);
+color: rgb(185, 185, 185);
+border-top: 1px solid rgb(23, 26, 33);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QListWidget" name="listWidget">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>80</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QListWidget#listWidget{
+background-color: rgba(255, 255, 255, 0);
+border: 0px solid;
+color: rgb(185, 185, 185);
+}
+
+QScrollBar
+{
+background : rgb(179, 179, 179);
+width: 6px;
+}
+QScrollBar::handle
+{
+background :rgb(70, 80, 95);
+
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+     background: rgb(55, 62, 75);
+	 height: 0px;
+	 width: 0px;
+ }
+
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourches.qrc"/>
+ </resources>
+ <connections/>
+</ui>
