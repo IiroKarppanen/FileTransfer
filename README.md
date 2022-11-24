@@ -14,3 +14,6 @@ will now be downloaded to this computer. If you didn't choose download path the 
 
 
 
+
+
+![fileTransfer](https://user-images.githubusercontent.com/39335935/203855751-ccc0fb0e-df83-4c6f-99f4-84810ddab55e.jpg)
