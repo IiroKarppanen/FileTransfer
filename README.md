@@ -1,4 +1,4 @@
-# FileTransfer - Iiro Karppanen
+# FileTransfer 
 
 FileTransfer is a small program that can be used to transfer files between two computers on same network. 
 
